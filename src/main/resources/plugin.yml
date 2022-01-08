@@ -1,0 +1,14 @@
+name: HubBasics
+version: '${project.version}'
+main: me.lowgod.hubbasics.HubBasics
+api-version: 1.18
+authors: [ lowgod ]
+description: a hub basiscs plugin
+commands:
+  fly:
+    description: give other or your self fly
+    usage: /<command>
+  hubbasics:
+    description: config admin permission
+    usage: /<command>
+

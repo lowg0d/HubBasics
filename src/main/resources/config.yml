@@ -1,0 +1,32 @@
+########################################################
+##            HubBasics Configuration                 ##
+##         Discord: https://discord.gg/jdXWKxUkVu     ##
+##           Made by lowg0d_ // lowgod#9999           ##
+########################################################
+# *disclaimer - thanks to MarvinLeiers - Marvin#2660
+
+hub-admin-permission: 'hubBasics.admin'
+
+FLY:
+  fly-permission: 'hub.fly'
+  fly-give-permission: 'hub.give.fly'
+
+  fly-enabled-message: '&aFly Enabled'
+  fly-disabled-message: '&cFly Disabled'
+  fly-enabled-by-message: '&aFly enabled by {sender}'
+  fly-disabled-by-message: '&cFly disabled by {sender}'
+
+  fly-no-permission-message: '&cYou dont have permission to use that.'
+
+ARMORS:
+  1:
+    MATERIAL:
+      helmet: LEATHER_HELMET
+      chestplate: LEATHER_CHESTPLATE
+      leggings: LEATHER_LEGGINGS
+      boots: LEATHER_BOOTS
+      color: RED
+    Glow: true
+    Permission: 'owner.armor'
+    Name: '&4&oOwner Armor'
+
