@@ -42,19 +42,19 @@ public final class HubBasics extends JavaPlugin {
                             */
 
     // commands
-    public void setupCommands() {
+    private void setupCommands() {
         getCommand("fly").setExecutor(new FlyCommand());
         getCommand("hubbasics").setExecutor(new hubBasicsCommand());
     }
 
     //Events
-    public void setupEvents() {
+    private void setupEvents() {
         getServer().getPluginManager().registerEvents(new onPlayerJoin(), this);
         getServer().getPluginManager().registerEvents(new onPLayerQuit(), this);
     }
 
     // get config
-    public void setupConfig(){
+    private void setupConfig(){
         getConfig().options().copyDefaults();
         saveDefaultConfig();
     }
